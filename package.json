@@ -45,8 +45,5 @@
   "main": "_bundles/ui-router-react-hybrid.js",
   "module": "lib-esm/index.js",
   "typings": "lib/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bigpanaio/react-hybrid.git"
-  }
+  "repository": "https://github.com/bigpandaio/bamboo"
 }
