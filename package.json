@@ -47,6 +47,6 @@
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ui-router/react-hybrid.git"
+    "url": "https://github.com/bigpanaio/react-hybrid.git"
   }
 }
