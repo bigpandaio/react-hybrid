@@ -50,7 +50,7 @@ function isExternal(id) {
     'angular',
   ];
 
-  let regexps = externals.map(e => [ 
+  let regexps = externals.map(e => [
     new RegExp(`^${e}$`),
     // new RegExp(`commonjs-proxy.${e}$`),
     new RegExp(`node_modules/${e}`),
@@ -61,7 +61,7 @@ function isExternal(id) {
 
 const CONFIG = {
   moduleName: '@uirouter/react-hybrid',
-  entry: 'lib-esm/index.js',
+  entry: 'library/index.js',
   dest: '_bundles/ui-router-react-hybrid' + extension,
 
   sourceMap: true,

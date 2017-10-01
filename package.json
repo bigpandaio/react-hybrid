@@ -2,8 +2,8 @@
   "name": "@uirouter/react-hybrid",
   "version": "0.0.12",
   "scripts": {
-    "clean": "shx rm -rf lib lib-esm _bundles",
-    "build": "npm run clean && tsc && tsc --module es6 --outDir lib-esm",
+    "clean": "shx rm -rf lib library _bundles",
+    "build": "npm run clean && tsc && tsc --module es6 --outDir library",
     "package": "npm run build && rollup -c && rollup -c --environment MINIFY",
     "watch": "watch 'npm run build && yalc push' src",
     "prepare": "npm run package"
@@ -43,7 +43,7 @@
     "webpack": "^1.13.1"
   },
   "main": "_bundles/ui-router-react-hybrid.js",
-  "module": "lib-esm/index.js",
+  "module": "library/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/bigpandaio/bamboo"
 }
