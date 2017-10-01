@@ -1,7 +1,7 @@
 .*
 _bundles
 lib
-lib-esm
+library
 node_modules
 stats.html
 yalc.lock
