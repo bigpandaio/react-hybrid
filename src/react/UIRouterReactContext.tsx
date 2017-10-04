@@ -32,7 +32,7 @@ export class UIRouterContextComponent extends React.Component<IUIRouterContextCo
   public static childContextTypes = {
     router: PropTypes.object,
     parentUIViewAddress: PropTypes.object,
-    reduxStore: PropTypes.object,
+    store: PropTypes.object,
   };
 
   public static defaultProps: Partial<IUIRouterContextComponentProps> = {
