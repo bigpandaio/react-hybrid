@@ -12,7 +12,7 @@ export interface IUIRouterContextComponentProps {
 export interface IUIRouterContextComponentState {
   router: UIRouter;
   parentUIViewAddress: any;
-  reduxSstore?: object
+  reduxStore?: object
 }
 
 /**
